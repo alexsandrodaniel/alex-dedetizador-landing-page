@@ -221,6 +221,7 @@ ul { list-style: none; }
 .service-block {
   display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center;
   margin-bottom: 60px; padding-bottom: 60px; border-bottom: 1px solid var(--gray-200);
+  scroll-margin-top: 90px;
 }
 .service-block:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0; }
 .service-block.reverse { direction: rtl; }
